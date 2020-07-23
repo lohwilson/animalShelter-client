@@ -30,7 +30,7 @@ class CreateForm extends Component {
     handleSubmit = async (e) => {
         try {
             let data = { ...this.state }
-            const res = await axios.post('http://localhost:5000/', data)
+            const res = await axios.post('https://animal-shelter-backend.herokuapp.com/', data)
             console.log(res)
             if (res.data.sucess)
                 this.setState({

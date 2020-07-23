@@ -32,7 +32,7 @@ class UpdateForm extends Component {
         try {
             e.preventDefault()
             let data = {...this.state}
-            const res = await axios.put(`http://localhost:5000/${this.props.match.params.index}`, data)
+            const res = await axios.put(`https://animal-shelter-backend.herokuapp.com/${this.props.match.params.index}`, data)
             if (res.data.success) {
                 this.props.history.push('/')
             }
