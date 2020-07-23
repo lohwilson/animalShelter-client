@@ -9,8 +9,8 @@ function App() {
     <Router>
       <div className="App">
         <Switch>
-          <Route exact path='/' component={ShowAnimal} />
-          <Route exact path='/:index' component={UpdateForm} />
+          <Route exact path='https://animal-shelter-backend.herokuapp.com' component={ShowAnimal} />
+          <Route exact path='https://animal-shelter-backend.herokuapp.com/:index' component={UpdateForm} />
         </Switch>
       </div>
     </Router>

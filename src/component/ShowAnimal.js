@@ -13,7 +13,7 @@ class ShowAnimal extends Component {
 
     async getData() {
         try {
-            const res = await axios.get('https://animal-shelter-backend.herokuapp.com/')
+            const res = await axios.get('https://animal-shelter-backend.herokuapp.com')
             console.log(res.data)
             this.setState({
                 animal: res.data.data
