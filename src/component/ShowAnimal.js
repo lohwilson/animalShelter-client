@@ -13,7 +13,7 @@ class ShowAnimal extends Component {
 
     async getData() {
         try {
-            const res = await axios.get('https://animal-shelter-backend.herokuapp.com')
+            const res = await axios.get('https://animalshelter-backend.herokuapp.com/')
             console.log(res.data)
             this.setState({
                 animal: res.data.data
@@ -31,7 +31,7 @@ class ShowAnimal extends Component {
     handleDelete = async (id) => {
         try {
             console.log(id)
-            const res = await axios.delete(`https://animal-shelter-backend.herokuapp.com/${id}`)
+            const res = await axios.delete(`https://animalshelter-backend.herokuapp.com/${id}`)
             this.getData()      
         } catch (err) {
             console.log(err.res)

@@ -31,9 +31,9 @@ class CreateForm extends Component {
         try {
             let data = { ...this.state }
             let headers = {
-                
+
             }
-            const res = await axios.post('https://animal-shelter-backend.herokuapp.com', data)
+            const res = await axios.post('https://animalshelter-backend.herokuapp.com/', data)
             console.log(res)
             if (res.data.sucess)
                 this.setState({
