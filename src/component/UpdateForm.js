@@ -43,7 +43,7 @@ class UpdateForm extends Component {
 	}
 
 	render() {
-		console.log(this.props.match.params.index)
+		// console.log(this.props.match.params.index)
 		return (
 			<form onSubmit={this.handleSubmit}>
 				<label htmlFor='name'>Name</label>

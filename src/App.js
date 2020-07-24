@@ -9,7 +9,10 @@ function App() {
 		<Router>
 			<div className="App">
 				<Switch>
-					<Route exact path='/animalShelter-client' component={ShowAnimal} />
+					<Route exact path='/animalShelter-client/banana' component={ShowAnimal} />
+					<Route exact path='/animalShelter-client/' component={ShowAnimal} />
+					<Route exact path='/animalShelter-clientz' component={ShowAnimal} />
+					<Route exact path='/apple' component={ShowAnimal} />
 					<Route exact path='/:index' component={UpdateForm} />
 				</Switch>
 			</div>
