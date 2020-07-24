@@ -14,7 +14,7 @@
 		"serve": "^11.3.2"
 	},
 	"scripts": {
-		"homepage": "http://wilfredloh.github.io/animalShelter-client",
+		"homepage": "https://wilfredloh.github.io/animalShelter-client",
 		"start": "serve -s ./build",
 		"predeploy": "npm run build",
 		"deploy": "gh-pages -d build",
