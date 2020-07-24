@@ -1,4 +1,5 @@
 {
+	"homepage": "https://wilfredloh.github.io/animalShelter-client",
 	"name": "animals",
 	"version": "0.1.0",
 	"private": true,
@@ -14,7 +15,6 @@
 		"serve": "^11.3.2"
 	},
 	"scripts": {
-		"homepage": "https://wilfredloh.github.io/animalShelter-client",
 		"start": "serve -s ./build",
 		"predeploy": "npm run build",
 		"deploy": "gh-pages -d build",
