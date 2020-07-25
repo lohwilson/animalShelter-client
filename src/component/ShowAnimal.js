@@ -39,7 +39,7 @@ class ShowAnimal extends Component {
 	}
 
 	handleUpdate = (id) => {
-		this.props.history.push(`/${id}`)
+		this.props.history.push(`/animalShelter-client/${id}`)
 	}
 
 	render() {

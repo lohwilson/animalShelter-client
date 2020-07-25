@@ -13,7 +13,7 @@ function App() {
 					<Route exact path='/animalShelter-client/' component={ShowAnimal} />
 					<Route exact path='/animalShelter-clientz' component={ShowAnimal} />
 					<Route exact path='/apple' component={ShowAnimal} />
-					<Route exact path='/:index' component={UpdateForm} />
+					<Route exact path='/animalShelter-client/:index' component={UpdateForm} />
 				</Switch>
 			</div>
 		</Router>
