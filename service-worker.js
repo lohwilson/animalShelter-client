@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/animalShelter-client/precache-manifest.966eeecd2f861139d1ac4152301ca2d7.js"
+  "/animalShelter-client/precache-manifest.8d88e46c48739e0e6e759a4e8087d257.js"
 );
 
 self.addEventListener('message', (event) => {
