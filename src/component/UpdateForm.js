@@ -34,7 +34,7 @@ class UpdateForm extends Component {
 			let data = { ...this.state }
 			const res = await axios.put(`https://animal-shelterzz.herokuapp.com/${this.props.match.params.index}`, data)
 			if (res.data.success) {
-				this.props.history.push('/')
+				this.props.history.push('/animalShelter-client/')
 			}
 
 		} catch (err) {
