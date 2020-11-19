@@ -6,6 +6,8 @@ export class Footer extends Component {
       <div>
         <footer>
           Footer
+          Footer
+          Footer
         </footer>
       </div>
     )
