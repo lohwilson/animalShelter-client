@@ -5,9 +5,9 @@ export class Footer extends Component {
     return (
       <div>
         <footer>
-          Footer
-          Footer
-          Footer
+          FOOTER
+          FOOTER
+          FOOTER
         </footer>
       </div>
     )
