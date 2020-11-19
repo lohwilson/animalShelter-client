@@ -2,6 +2,7 @@ import React, { Component } from 'react'
 import axios from 'axios'
 import ShowCompo from './ShowCompo'
 import CreateForm from './CreateForm'
+import Footer from'./Footer'
 
 class ShowAnimal extends Component {
 	constructor() {
@@ -60,6 +61,7 @@ class ShowAnimal extends Component {
 					})}
 				</div>
 				<CreateForm />
+				<Footer />
 			</div>
 		)
 	}
